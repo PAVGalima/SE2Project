@@ -1,33 +1,69 @@
-# 📌 OccuTrack - Real-Time Classroom & Facility Occupancy Tracking System
+ #NEU OccuTrack 
+A real-time classroom and facility occupancy tracking system for New Era University. This web application enables streamlined room reservations, real-time room status updates, user-role-based access, and centralized announcements for academic institutions.
 
-## **1. Project Overview**
-**OccuTrack** is a **real-time web-based classroom and facility occupancy tracking system** designed to help educational institutions efficiently **manage room reservations and monitor usage**. It allows **Students, Faculty, Admins, and SuperAdmins** to interact with rooms and manage scheduling while ensuring **transparency, accountability, and optimal resource use**.  
+Built with React.js, Supabase, and Tailwind CSS. Deployed via Lovable.
 
----
+📌 Key Features
+🕒 Real-Time Room Status – Instantly view if rooms are occupied, vacant, or under maintenance
 
-## **1.2 Project Goals and Objectives**
-✅ Provide a seamless platform for checking **real-time room occupancy**  
-✅ Allow faculty to **reserve rooms and log their room usage**  
-✅ Enable administrators to **manage rooms, faculty, and review usage analytics**  
-✅ Ensure only authorized users with **institutional emails (@neu.edu.ph)** can access the system  
-✅ Grant **SuperAdmins** the ability to **manage all users and room statuses**  
-✅ Implement a **scalable, real-time architecture**  
+📅 Room Reservation & Class Scheduling – Admins, Faculty, and Super Admins can reserve and assign rooms
 
----
+📢 Announcements Board – Super Admins and Admins can post school-wide messages
 
-## **1.3 Scope of the Project**
-### ✅ **Included Features**
-✔️ **Web-based responsive user interface**  
-✔️ **Role-based dashboard access**  
-✔️ **Room check-in/check-out and reservation system**  
-✔️ **Admin and SuperAdmin dashboards**  
-✔️ **Announcement posting and viewing system**  
-✔️ **Secure email-based login and registration**  
+🔐 Secure Login – Google Sign-In and Lovable Auth with role-based access
 
-### ❌ **Not Included**
-✖️ **Native mobile application**  
-✖️ **Offline capabilities**  
-✖️ **Integration with external platforms (SMS, calendar services, etc.)**  
+🛠️ Room Maintenance Control – Super Admins can mark rooms as under maintenance
 
----
+📊 Dashboard Analytics – View room usage statistics and user activity (Admins, Super Admins)
+
+🏢 Room & Building Management – Admin-level tools to configure classrooms and facilities
+
+👥 User Management – Role assignment, account approval, and permission settings
+
+🏗️ Tech Stack
+Frontend: React.js, Tailwind CSS
+
+Backend: Supabase (PostgreSQL DB, Auth, Realtime)
+
+Authentication: Google Sign-In, Lovable Auth
+
+Deployment: Lovable (Cloud-based hosting)
+
+Version Control: GitHub
+
+🌐 Accessing the App
+NEU OccuTrack is accessed through your institutional site hosted on Lovable. There is no need to clone or install dependencies locally.
+
+➡️ Visit the deployed site:
+🔗 https://occutrack.lovable.app/
+
+# Repository Structure
+occutrack/
+├── public/                   # Static assets
+├── src/
+│   ├── components/           # Reusable UI components
+│   ├── pages/                # Role-based pages (Dashboard, Login, etc.)
+│   ├── services/             # Supabase and Auth logic
+│   ├── hooks/                # Custom React hooks
+│   ├── context/              # Auth and Role contexts
+│   ├── utils/                # Reusable helper functions
+│   ├── App.tsx               # Main app component
+│   └── index.tsx             # Entry point
+├── .env                      # Environment variables
+├── tailwind.config.js        # Tailwind CSS config
+├── package.json              # Project metadata
+└── README.md                 # This file
+
+👥 Developers
+Patrick Ace Galima
+
+Vina Marie Solitario
+
+Kathrine Anne Dato
+
+Ronne Rae Mayuga
+
+Rejina Jackie Ablao
+
+
 

@@ -3,7 +3,7 @@ A real-time classroom and facility occupancy tracking system for New Era Univers
 
 Built with React.js, Supabase, and Tailwind CSS. Deployed via Lovable.
 
-📌 Key Features
+# 📌 Key Features
 🕒 Real-Time Room Status – Instantly view if rooms are occupied, vacant, or under maintenance
 
 📅 Room Reservation & Class Scheduling – Admins, Faculty, and Super Admins can reserve and assign rooms
@@ -20,7 +20,7 @@ Built with React.js, Supabase, and Tailwind CSS. Deployed via Lovable.
 
 👥 User Management – Role assignment, account approval, and permission settings
 
-🏗️ Tech Stack
+# 🏗️ Tech Stack
 Frontend: React.js, Tailwind CSS
 
 Backend: Supabase (PostgreSQL DB, Auth, Realtime)
@@ -31,7 +31,7 @@ Deployment: Lovable (Cloud-based hosting)
 
 Version Control: GitHub
 
-🌐 Accessing the App
+# 🌐 Accessing the App
 NEU OccuTrack is accessed through your institutional site hosted on Lovable. There is no need to clone or install dependencies locally.
 
 ➡️ Visit the deployed site:

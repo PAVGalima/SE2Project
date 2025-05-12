@@ -41,14 +41,14 @@ NEU OccuTrack is accessed through your institutional site hosted on Lovable. The
 # 👥 Developers
 
 Patrick Ace Galima
-
+https://github.com/PAVGalima
 Vina Marie Solitario
-
+Github: https://github.com/VinaSolitario
 Kathrine Anne Dato
-
+Github: https://github.com/KathrineAnneDato
 Ronne Rae Mayuga
-
+Github: https://github.com/rramayuga
 Rejina Jackie Ablao
-
+Github: https://github.com/Jackieablao
 
 

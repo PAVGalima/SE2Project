@@ -37,22 +37,24 @@ NEU OccuTrack is accessed through your institutional site hosted on Lovable. The
 ➡️ Visit the deployed site:
 🔗 https://occutrack.lovable.app/
 
-# Repository Structure
-occutrack/
-├── public/                   # Static assets
-├── src/
-│   ├── components/           # Reusable UI components
-│   ├── pages/                # Role-based pages (Dashboard, Login, etc.)
-│   ├── services/             # Supabase and Auth logic
-│   ├── hooks/                # Custom React hooks
-│   ├── context/              # Auth and Role contexts
-│   ├── utils/                # Reusable helper functions
-│   ├── App.tsx               # Main app component
-│   └── index.tsx             # Entry point
-├── .env                      # Environment variables
-├── tailwind.config.js        # Tailwind CSS config
-├── package.json              # Project metadata
-└── README.md                 # This file
+# Project Structure
+/occutrack
+├── public/                     → Static assets (favicon, index.html, etc.)
+├── src/                        → Application source code
+│   ├── components/             → Reusable React components
+│   ├── pages/                  → Route-based views (Dashboard, Login, etc.)
+│   ├── services/               → API calls and Supabase logic
+│   ├── hooks/                  → Custom React hooks
+│   ├── context/                → Auth and role context providers
+│   ├── utils/                  → Helper functions and utilities
+│   ├── App.tsx                 → Root component
+│   └── index.tsx              → Entry point
+├── .env                        → Environment variables (not pushed to GitHub)
+├── tailwind.config.js          → Tailwind configuration
+├── package.json                → Dependencies and scripts
+└── README.md                   → Project documentation
+
+
 👥 Developers
 Patrick Ace Galima
 

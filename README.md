@@ -53,7 +53,6 @@ occutrack/
 ├── tailwind.config.js        # Tailwind CSS config
 ├── package.json              # Project metadata
 └── README.md                 # This file
-
 👥 Developers
 Patrick Ace Galima
 

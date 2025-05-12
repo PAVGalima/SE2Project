@@ -1,4 +1,4 @@
- #NEU OccuTrack 
+# NEU OccuTrack 
 A real-time classroom and facility occupancy tracking system for New Era University. This web application enables streamlined room reservations, real-time room status updates, user-role-based access, and centralized announcements for academic institutions.
 
 Built with React.js, Supabase, and Tailwind CSS. Deployed via Lovable.

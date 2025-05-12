@@ -38,7 +38,8 @@ NEU OccuTrack is accessed through your institutional site hosted on Lovable. The
 🔗 https://occutrack.lovable.app/
 
 
-👥 Developers
+# 👥 Developers
+
 Patrick Ace Galima
 
 Vina Marie Solitario
